@@ -28,8 +28,8 @@ body{
     border-radius: 10px;
 }
 .leftPage h1{
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.9rem;
     text-align: center;
 
 }
@@ -44,7 +44,7 @@ body{
     outline: none;
     padding: 15px 145px 15px 12px;
     border-radius: 10px;
-    color: #fff;
+    color: #000;
     font-size: 1.2rem;
 }
 .heading2{
