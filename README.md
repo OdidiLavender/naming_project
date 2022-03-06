@@ -1,4 +1,4 @@
-## PORTFOLIO-LANDING-PAGE
+## AKAN NAME GENERATOR
 This is a naming website where it takes a persons birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ## Table of contents
 * [Project Name](#Akan Name Generator)
@@ -9,7 +9,7 @@ This is a naming website where it takes a persons birthday and calculates the da
 * [Contact information](#contacts)
 
 ## Project Name
-Akana Ghana Name Generator
+Akan Ghana Name Generator
 
 
 ## Authors
