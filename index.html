@@ -11,109 +11,109 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-image: i;">
     <div class="leftPage">
-        <!-- created a heading to guide users  -->
         <strong>
             <h1>Enter your birthday to Discover your Ghanaian Name.</h1>
         </strong>
-        <!-- input form starts here -->
-        <form name="form">
-            <!-- created the gender inputfield -->
-            <div class="form-group row" >
-                <label for="example-number-input" class="col-2 col-form-label">Gender</label>
+              <form name="form">
+                  <div class="form-group row" >
+                      <label for="example-number-input" class="col-2 col-form-label">Gender</label>
+                            <div class="col-7"> 
+                              <select name="genders" id="gender" class="form-control">
+                                 <option value="" selected >Gender
+                                  <option value="1">Female
+                                 <option value="2">Male   
+                              </select>        
+                           </div>
+                  </div>
+
+                  <div class="form-group row" >
+                      <label for="example-number-input" class="col-2 col-form-label">Day</label>
+                            <div class="col-7"> 
+                                <select name="day" class="form-control" type="number" id="dayOfMonth">
+                                  <option value="" selected>Day
+                                            <option value="1">01
+                                            <option value="2">02
+                                            <option value="3">03
+                                            <option value="4">04
+                                            <option value="5">05
+                                            <option value="6">06
+                                            <option value="7">07
+                                            <option value="8">08
+                                            <option value="9">09
+                                            <option value="10">10
+                                            <option value="11">11
+                                            <option value="12">12
+                                            <option value="13">13
+                                            <option value="14">14
+                                            <option value="15">15
+                                            <option value="16">16
+                                            <option value="17">17
+                                            <option value="18">18
+                                            <option value="19">19
+                                            <option value="20">20
+                                            <option value="21">21
+                                            <option value="22">22
+                                            <option value="23">23
+                                            <option value="24">24
+                                            <option value="25">25
+                                            <option value="26">26
+                                            <option value="27">27
+                                            <option value="28">28
+                                            <option value="29">29
+                                            <option value="30">30
+                                            <option value="31">31
+                                 </select>
+                              </div>
+                    </div> 
+
+                    <div class="form-group row">
+                      <label for="example-number-input" class="col-2 col-form-label">Month</label>
                       <div class="col-7"> 
-                        <select name="genders" id="gender" class="form-control">
-                           <option value="" selected >Gender
-                            <option value="1">Female
-                           <option value="2">Male   
-                        </select>        
+                        <select name="month" class="form-control" type="number"  id="monthNumber" >
+                          <option value="" selected>Month
+                          <option value="January"  >January
+                          <option value="February">February
+                          <option value="March">March
+                          <option value="April">April
+                          <option value="May">May
+                          <option value="June">June
+                          <option value="July">July
+                          <option value="August">August
+                          <option value="September">September
+                          <option value="October">October
+                          <option value="November">November
+                          <option value="December">December
+                          </select>
+                      </div>
                      </div>
-            </div>
-            <!-- Day input field starts here -->
-            <div class="form-group row" >
-                <label for="example-number-input" class="col-2 col-form-label">Day</label>
-                    <div class="col-7"> 
-                        <select name="day" class="form-control" type="number" id="dayOfMonth">
-                            <option value="" selected>Day
-                                              <option value="1">01
-                                              <option value="2">02
-                                              <option value="3">03
-                                              <option value="4">04
-                                              <option value="5">05
-                                              <option value="6">06
-                                              <option value="7">07
-                                              <option value="8">08
-                                              <option value="9">09
-                                              <option value="10">10
-                                              <option value="11">11
-                                              <option value="12">12
-                                              <option value="13">13
-                                              <option value="14">14
-                                              <option value="15">15
-                                              <option value="16">16
-                                              <option value="17">17
-                                              <option value="18">18
-                                              <option value="19">19
-                                              <option value="20">20
-                                              <option value="21">21
-                                              <option value="22">22
-                                              <option value="23">23
-                                              <option value="24">24
-                                              <option value="25">25
-                                              <option value="26">26
-                                              <option value="27">27
-                                              <option value="28">28
-                                              <option value="29">29
-                                              <option value="30">30
-                                              <option value="31">31
-                        </select>
-                    </div>
-                </div>
-                <!-- Month input field starts here -->
-                <div class="form-group row">
-                    <label for="example-number-input" class="col-2 col-form-label">Month</label>
-                    <div class="col-7"> 
-                      <select name="month" class="form-control" type="number"  id="monthNumber" >
-                        <option value="" selected>Month
-                        <option value="January"  >January
-                        <option value="February">February
-                        <option value="March">March
-                        <option value="April">April
-                        <option value="May">May
-                        <option value="June">June
-                        <option value="July">July
-                        <option value="August">August
-                        <option value="September">September
-                        <option value="October">October
-                        <option value="November">November
-                        <option value="December">December
-                        </select>
-                    </div>
-                </div>
-                <!-- Year Input field starts here -->
-                <div class="form-group row">
-                    <label for="example-number-input" class="col-2 col-form-label">Year</label>
-                      <div class="col-7">
-                         <input  name=year class="form-control" type=text placeholder="Type your year" size=4 maxlength=4  id="yearNumber">
-                      </div>  
-                </div> 
-        </form>
-    </div>
-    <!-- Output -->
+
+                      <div class="form-group row">
+                        <label for="example-number-input" class="col-2 col-form-label">Year</label>
+                          <div class="col-7">
+                             <input  name=year class="form-control" type=text placeholder="Type your year" size=4 maxlength=4  id="yearNumber">
+                          </div>  
+                      </div>
+              </form>
+              
+
+<br>
+
+
+<!-- Output -->
     <div>
-        <button  class="btn  btn-warning btn-lg"  onClick="calculateFemale()" style="color: #fff;" > FEMALE</button>
-        <p id="display1"></p>
-        <button  class="btn btn-primary btn-lg"  onClick="calculateMale()"> MALE</button>
-        <p id="display2"></p>
-            <br><br>
-         
-     </div>
-    
- </div>
- 
- </div>
- <script src="js/script.js"></script>
-    
+       <button  class="btn  btn-warning btn-lg"  onClick="calculateFemale()" style="color: #fff;" > FEMALE</button>
+       <p id="display1"></p>
+       <button  class="btn btn-primary btn-lg"  onClick="calculateMale()"> MALE</button>
+       <p id="display2"></p>
+           <br><br>
+        
+    </div>
+   
+</div>
+
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
