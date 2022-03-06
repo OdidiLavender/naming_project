@@ -19,3 +19,37 @@ body{
     justify-content: center;
 
 }
+.leftPage{
+    width: 50%;
+    background-image: url('image/image-removebg-preview.png');
+    background-repeat: no-repeat;
+    color: #000;
+    padding: 16px;
+    border-radius: 10px;
+}
+.leftPage h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+/* Input form */
+.form-group {
+    width: 50vw;
+}
+.form-control{
+    width: 95%;
+    background: #1f3841 ;
+    border: none;
+    outline: none;
+    padding: 15px 145px 15px 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.heading2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
