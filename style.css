@@ -36,7 +36,7 @@ body{
 /* Input form */
 .form-group {
     width: 50vw;
-}
+    }
 .form-control{
     width: 95%;
     background: #1f3841 ;
@@ -52,4 +52,27 @@ body{
     font-size: 1.5rem;
     text-align: center;
 
+}
+.leftPage form{
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+}
+.leftPage .form select{
+    width: 100%;
+    background: #1f3841;
+    border:none;
+    outline: none;
+    padding: 15px, 145px, 15px, 12px;
+}
+.leftPage .form option{
+    width: 100%;
+    background: #1f3841;
+    border:none;
+    outline: none;
+    padding: 15px, 145px, 15px, 12px;
+}
+.col-form-label{
+    font-weight: 400;
+    font-size: 1.2rem;
 }
